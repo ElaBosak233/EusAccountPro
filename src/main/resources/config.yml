@@ -1,5 +1,10 @@
 Storage:
-  # Supported type(CaSe SeNsItIvE): JSON, SQLite, MySQL
-  type: JSON
+  type: JSON # JSON, SQLite, MySQL, yml
 Account:
-  Display: EusMC
+  Display: EusMC # 字符串，包含在二维码内服务器的名称，可自定义，APP扫描后会显示该名称
+Plugins:
+  GeoIP:
+    switch: false # 布尔值，开启GeoIP地址检测，根据地址变动自动启用进服验证
+    online: false # 布尔值，使用在线模式进行GeoIP地址检测，若为false，则必须提供lib，若为true，则必须提供token
+    lib: /GeoIP/GeoIP2-City.mmdb # 若使用本地GeoIP，填入GeoIP的数据库地址，此为示例
+    token: 35c3d3e57d879403a3f3f51517fbffcf0ee11f6e34541e028d4c259ababc46c9 # ipinfodb.com 提供的token

@@ -6,15 +6,14 @@ import org.bukkit.inventory.Inventory;
 import java.io.IOException;
 import java.util.UUID;
 
-public class MySQL extends Database {
-
+public class ymlDB extends Database{
     @Override
     public String getSecretKey(UUID uuid) throws IOException {
         return null;
     }
 
     @Override
-    public boolean updatePlayer(UUID uuid, String secretKey) {
+    public boolean updatePlayer(UUID uuid, String secretKey) throws IOException {
         return false;
     }
 
@@ -29,12 +28,12 @@ public class MySQL extends Database {
     }
 
     @Override
-    public boolean SafePoint(UUID uuid, Location safepoint) {
+    public boolean SafePoint(UUID uuid, Location safepoint) throws IOException {
         return false;
     }
 
     @Override
-    public Location getSafePoint(UUID uuid) {
+    public Location getSafePoint(UUID uuid) throws IOException {
         return null;
     }
 
@@ -62,6 +61,4 @@ public class MySQL extends Database {
     public String getGeoIP(UUID uuid) {
         return null;
     }
-
-
 }

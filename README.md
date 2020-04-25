@@ -25,7 +25,7 @@
 
 ## 安装
 
-前往 `SpigotMC` 或 [`Github Releases`](https://github.com/EusMC/EusAccountPro/releases) 下载**服务端对应**版本，将其放入`/plugins`文件夹
+前往 [`SpigotMC`](https://www.spigotmc.org/resources/eusaccountpro.77573/) 或 [`Github Releases`](https://github.com/EusMC/EusAccountPro/releases) 下载**服务端对应**版本，将其放入`/plugins`文件夹
 
 ## 命令
 

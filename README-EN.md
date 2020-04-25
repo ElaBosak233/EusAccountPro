@@ -2,6 +2,8 @@
 
 [**`简体中文`**](README.md) **/** [**`English`**](README-EN.md)
 
+> **EXTRA BRANCH** [**English** Ver.](https://github.com/EusMC/EusAccountPro/tree/english)
+
 ## Introduction
 
 When using the Bukkit / Spigot server, the player's account may be hacked (genuine players are no exception). For this reason, we tried to find a solution, and finally found [**`MineSecure`**](https://www.spigotmc.org/resources/minesecure.699/) in SpigotMC. You can use the **Two Factor Authentication** developed by Google so that player's account will be protected, the plug-in itself is perfect, but the price is high, so we try to make a plug-in similar to **`MineSecure`**, and it is free and open source, as a plug-in used by server managers, and materials studied by plug-in authors
@@ -23,7 +25,7 @@ When using the Bukkit / Spigot server, the player's account may be hacked (genui
 
 ## Installation
 
-Go to `SpigotMC` or [`Github Releases`](https://github.com/EusMC/EusAccountPro/releases) to download the **server corresponding** version, and put it in the `/plugins` folder
+Go to [`SpigotMC`](https://www.spigotmc.org/resources/eusaccountpro.77573/) or [`Github Releases`](https://github.com/EusMC/EusAccountPro/releases) to download the **server corresponding** version, and put it in the `/plugins` folder
 
 ## Commands
 
