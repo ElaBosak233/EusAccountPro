@@ -1,9 +1,12 @@
 cn\elabosak\eusaccountpro\EusAccountPro$2.class
 cn\elabosak\eusaccountpro\handler\onMapInitialize.class
 cn\elabosak\eusaccountpro\utils\Authenticator.class
+cn\elabosak\eusaccountpro\database\ymlDB.class
 cn\elabosak\eusaccountpro\EusAccountPro$1.class
 cn\elabosak\eusaccountpro\exception\NotRegistered.class
+cn\elabosak\eusaccountpro\utils\FileClean.class
 cn\elabosak\eusaccountpro\database\Database.class
+cn\elabosak\eusaccountpro\database\JsonDB$1.class
 cn\elabosak\eusaccountpro\EusAccountPro.class
 cn\elabosak\eusaccountpro\database\DBType.class
 cn\elabosak\eusaccountpro\database\JsonDB.class
@@ -14,3 +17,4 @@ cn\elabosak\eusaccountpro\utils\str2loc.class
 cn\elabosak\eusaccountpro\utils\FileUtil.class
 cn\elabosak\eusaccountpro\controller\AuthController.class
 cn\elabosak\eusaccountpro\EAPConfig.class
+cn\elabosak\eusaccountpro\utils\FileClean$1.class

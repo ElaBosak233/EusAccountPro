@@ -2,18 +2,9 @@
 
 [**`简体中文`**](README.md) **/** [**`English`**](README-EN.md)
 
-> **EXTRA BRANCH** [**English** Ver.](https://github.com/EusMC/EusAccountPro/tree/english)
-
 ## Introduction
 
 When using the Bukkit / Spigot server, the player's account may be hacked (genuine players are no exception). For this reason, we tried to find a solution, and finally found [**`MineSecure`**](https://www.spigotmc.org/resources/minesecure.699/) in SpigotMC. You can use the **Two Factor Authentication** developed by Google so that player's account will be protected, the plug-in itself is perfect, but the price is high, so we try to make a plug-in similar to **`MineSecure`**, and it is free and open source, as a plug-in used by server managers, and materials studied by plug-in authors
-
-![YBI@F_NJA~W__F@WJB`N~X3.jpg](https://i.loli.net/2020/04/19/T3EVFY8AwDfLdek.jpg)
-
-## Language
-
-- 简体中文 √
-- English Dev...
 
 ## Features
 
@@ -25,7 +16,7 @@ When using the Bukkit / Spigot server, the player's account may be hacked (genui
 
 ## Installation
 
-Go to [`SpigotMC`](https://www.spigotmc.org/resources/eusaccountpro.77573/) or [`Github Releases`](https://github.com/EusMC/EusAccountPro/releases) to download the **server corresponding** version, and put it in the `/plugins` folder
+Go to `SpigotMC` or [`Github Releases`](https://github.com/EusMC/EusAccountPro/releases) to download the **server corresponding** version, and put it in the `/plugins` folder
 
 ## Commands
 
@@ -46,14 +37,6 @@ Go to [`SpigotMC`](https://www.spigotmc.org/resources/eusaccountpro.77573/) or [
 
 - `EusAccountPro.common` EusAccountPro general permissions (granted by default)
 - `EusAccountPro.admin` EusAccountPro administrator rights
-
-## config.yml
-```yaml
-Storage:
-  type: JSON # JSON, SQLite, MySQL, ymlDB
-Account:
-  Display: EusMC # The name of the server included in the QRCode can be customized, and the name will be displayed after scanning with the APP
-```
 
 ## Database
 

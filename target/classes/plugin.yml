@@ -24,6 +24,6 @@ permissions:
   EusAccountPro.admin:
     description: 可以控制其他玩家的2fa激活情况
     default: op
-  EusAccountPro.general:
+  EusAccountPro.common:
     description: EusAccountPro的普通权限
     default: true

@@ -1,10 +1,10 @@
 package cn.elabosak.eusaccountpro.database;
 
 import org.bukkit.Location;
-import org.bukkit.inventory.Inventory;
 
 import java.io.IOException;
 import java.util.UUID;
+
 
 public class SQLite extends Database {
 
@@ -39,27 +39,12 @@ public class SQLite extends Database {
     }
 
     @Override
-    public boolean updateInv(UUID uuid, Inventory inventory) throws IOException {
-        return false;
-    }
-
-    @Override
-    public Inventory getInv(UUID uuid) throws IOException {
+    public Boolean updateStauts(UUID uuid, String stauts) throws IOException {
         return null;
     }
 
     @Override
-    public boolean deleteInv(UUID uuid) throws IOException {
-        return false;
-    }
-
-    @Override
-    public boolean updateGeoIP(UUID uuid, com.maxmind.geoip2.record.Location location) {
-        return false;
-    }
-
-    @Override
-    public String getGeoIP(UUID uuid) {
+    public String getStauts(UUID uuid) throws IOException {
         return null;
     }
 

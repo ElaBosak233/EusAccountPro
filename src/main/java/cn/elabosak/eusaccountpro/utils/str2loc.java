@@ -8,7 +8,7 @@ public class str2loc {
 
     public static Location str2loc(String str){
 
-        String[] str2loc =str.split("\\:");
+        String str2loc[]=str.split("\\:");
 
         Location loc = new Location(getServer().getWorld(str2loc[0]),0,0,0);
 
