@@ -22,5 +22,10 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - uses: actions/upload-artifact@master
+    - name: Build Artifacts
+      with:
+        path: build
+        name: EusAccountPro
     - name: Upload to file.io
       run: curl -F "file=@/home/runner/work/EusAccountPro/EusAccountPro/target/EusAccountPro-20w15a.jar" https://file.io
