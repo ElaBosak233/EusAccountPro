@@ -26,6 +26,6 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: EusAccountPro.jar
-        path: /home/runner/work/EusAccountPro/EusAccountPro/target/*.jar
+        path: /home/runner/work/EusAccountPro/EusAccountPro/target/*.*
     - name: Upload to file.io
       run: curl -F "file=@/home/runner/work/EusAccountPro/EusAccountPro/target/EusAccountPro-20w15a.jar" https://file.io
